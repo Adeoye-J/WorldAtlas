@@ -1,0 +1,28 @@
+.toggle-theme-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  
+    .theme-toggle-btn {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        
+        &:hover {
+            text-decoration: none;
+        }
+
+        span {
+            font-weight: bold;
+        }
+    }
+}
+
+body.dark-mode .theme-toggle-btn {
+    color: #fff;
+
+    &:hover {
+        color: #fff;
+    }
+}

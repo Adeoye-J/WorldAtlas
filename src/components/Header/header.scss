@@ -1,0 +1,17 @@
+.header-container {
+    background-color: var(--header-color);
+    padding-inline: 3rem;
+    box-shadow: 0px 0px 5px #000;
+    
+    .header-details {
+        min-height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .header-text {
+            font-weight: bold;
+            margin: 0;
+        }
+    }
+}

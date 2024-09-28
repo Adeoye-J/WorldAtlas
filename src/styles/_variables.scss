@@ -1,0 +1,18 @@
+// _variables.scss
+
+// Light Mode
+$light-mode-element: hsl(0, 0%, 100%);
+$light-background-color: hsl(0, 0%, 98%);
+$light-text-color: hsl(200, 15%, 8%);
+$light-input-color: hsl(0, 0%, 52%);
+
+// Dark Mode
+$dark-mode-element: hsl(209, 23%, 22%);
+$very-dark-background-color: hsl(207, 26%, 17%);
+$dark-text-color: hsl(0, 0%, 100%);
+
+// Typography
+$body-font: 'Roboto', sans-serif;
+$font-size-small: 14px;
+$font-size-medium: 16px;
+$font-size-large: 20px;
